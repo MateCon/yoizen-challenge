@@ -2,7 +2,6 @@ import { Router } from 'express';
 import parseErr from '../utils/parseErr';
 import { authMiddleware } from './authController';
 import policyService from '../services/policyService';
-import { z } from 'zod';
 
 const router = Router();
 
